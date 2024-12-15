@@ -1,29 +1,55 @@
-/* #Contact {
-  background-color: rgb(245, 102, 6);
-  color: white;
-  display: inline-flex;
-  width: 1440px;
+* {
+  margin: 0;
+  padding: 0;
 }
-.contact-box-1,
-.contact-box-2,
-.contact-box-3 {
-  border: 2px solid rgb(241, 246, 241);
-  width: 200px;
-  height: 170px;
-  margin-left: 30px;
-}
-/* Accommodations
+/*header , nav*/
 
-#Accommodation {
-  background-color: rgb(157, 157, 158);
-  align-content: center;
+main {
+  width: 100%;
+  background-color: aqua;
 }
-#text-title-accommodations {
+
+/*Welcome page*/
+#welcome-page div {
+  background: url(../img/HT.jpeg) center/cover;
+  min-height: 100vh;
+  max-height: 100vh;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color: rgb(170, 95, 4);
-  font-size: 40px;
 }
-.detail-box {
-  border-radius: 2px solid rgb(255, 170, 0);
-  color: brown;
-} */
+h5 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+#the-wellhall {
+  margin-bottom: 30px;
+  font-size: 100px;
+}
+h3 {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+#btn-the-wellhall {
+  font-weight: bolder;
+  color: #9a6c09;
+  margin-bottom: 80px;
+  padding: 10px;
+  width: 250px;
+}
+
+/*Contact page*/
+#Contact {
+  background-color: #9a6c09;
+  display: flex;
+}
+#Contact div {
+  border: 2px solid white;
+  height: 130px;
+  width: 220px;
+  margin: 8px;
+}
