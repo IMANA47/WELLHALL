@@ -1,55 +1,94 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-/*header , nav*/
-
-main {
-  width: 100%;
-  background-color: aqua;
-}
-
-/*Welcome page*/
-#welcome-page div {
-  background: url(../img/HT.jpeg) center/cover;
+#welcome-page {
+  color: white;
+  background: url(../assets/img/plage.jpeg) center/cover;
   min-height: 100vh;
   max-height: 100vh;
-  color: white;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-repeat: no-repeat;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h5 {
+  margin-bottom: 70px;
   font-size: 30px;
-  margin-bottom: 100px;
 }
 #the-wellhall {
-  margin-bottom: 30px;
-  font-size: 100px;
+  font-weight: lighter;
+  font-size: 8rem;
 }
 h3 {
+  margin-top: 3px;
   font-size: 40px;
-  margin-bottom: 100px;
 }
-#btn-the-wellhall {
+button {
+  margin-top: 75px;
+  padding: 1rem;
+  width: 200px;
+  color: rgb(250, 110, 2);
   font-weight: bolder;
-  color: #9a6c09;
-  margin-bottom: 80px;
-  padding: 10px;
-  width: 250px;
 }
 
-/*Contact page*/
-#Contact {
-  background-color: #9a6c09;
-  display: flex;
+/* about */
+#About {
+  background-color: antiquewhite;
+  min-height: 100vh;
+  max-height: 100vh;
+  color: rgb(248, 114, 10);
 }
-#Contact div {
-  border: 2px solid white;
-  height: 130px;
-  width: 220px;
-  margin: 8px;
+.accommodations {
+  background-color: rgb(243, 243, 243);
+  border: 2px solid rgb(248, 114, 10);
+  height: 110vh;
+}
+#text-title-accommodations {
+  color: rgb(71, 50, 36);
+  font-size: 3.9rem;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  color: rgb(71, 50, 36);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 3rem;
+}
+.detail-box {
+  width: 400px;
+  height: 210px;
+  margin-top: 15px;
+  padding: 1.5rem;
+  border: 2px solid rgb(248, 114, 10);
+  line-height: 0%;
+}
+.box-img > img {
+  width: 400px;
+  height: 250px;
+}
+#box-text-1 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+#box-text-2 {
+  color: brown;
+  margin-top: 50px;
+}
+
+/* suit section */
+/* suit part 1 */
+.suit-1 {
+  color: rgb(71, 50, 36);
+  display: flex;
+  height: 110vh;
+}
+.suit-box-1 {
+  padding: 40px;
+  width: 440px;
 }
