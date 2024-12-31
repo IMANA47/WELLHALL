@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>WellHall</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="container-navbar">
-      <div class="logo">
-        <h2>WellHall</h2>
-      </div>
-      <nav class="navbar">
+      <nav>
+        <h2 class="logo">WellHall</h2>
         <ul>
           <li><a href="#welcome-page">Welcome</a></li>
           <li><a href="#About">About</a></li>
@@ -109,10 +115,11 @@
           </div>
           <div class="suit-box-2">
             <img
+              id="img-suit-box-2"
               src="assets/img/Chambre (2).jpg"
               alt="large hotel room with white bed"
             />
-            <p>
+            <p id="text-suit-box-2">
               An intriguing caption that describes the room goes here Use a
               flattering photo, then describe away!
             </p>
@@ -131,7 +138,10 @@
             </p>
           </div>
           <div class="suit-box-4">
-            <img src="" alt="Hotel bathroom with window display" />
+            <img
+              src="assets/img/douche.jpg"
+              alt="Hotel bathroom with window display"
+            />
             <p>
               An intriguing caption that describes the room goes here Use a
               flattering photo, then describe away!
@@ -203,26 +213,29 @@
       <!-- Contact start -->
       <section id="Contact">
         <h2>The Wellhall</h2>
-        <div class="contact-box">
-          <h4>Reservations Office</h4>
-          <a href=""><address>123 Anywhere St.. Any city ST 12345</address></a>
-          <br />
-          <a href="">1123-456-7890</a>
-          <a href="mailto:hello@reallygreatsite.com"
-            >hello@reallygreatsite.com</a
-          >
-        </div>
-        <div class="contact-box">
-          <h4>Office Hours</h4>
-          <p>Monday to Friday 9:00 am to 6:00 pm</p>
-          <p>Saturday 9:00 am to 6:00 pm</p>
-        </div>
-        <div class="contact-box">
-          <h4>Get Social</h4>
-          <a href="#">f</a>
-          <a href="#">t</a>
-          <a href="#">i</a>
-          <button type="button">Tag us in your photo!</button>
+        <div class="container-contact">
+          <div class="contact-box">
+            <h4>Reservations Office</h4>
+            <a href=""
+              ><address>123 Anywhere St.. Any city ST 12345</address></a
+            >
+            <a href="tel:+1123-456-7890"><i>f</i>+1123-456-7890</a> <br />
+            <a href="mailto:hello@reallygreatsite.com"
+              ><i>f</i>hello@reallygreatsite.com</a
+            >
+          </div>
+          <div class="contact-box">
+            <h4>Office Hours</h4>
+            <p>Monday to Friday 9:00 am to 6:00 pm</p>
+            <p>Saturday 9:00 am to 6:00 pm</p>
+          </div>
+          <div class="contact-box">
+            <h4>Get Social</h4>
+            <a href="#"><i>f</i></a>
+            <a href="#"><i>t</i></a>
+            <a href="#"><i>i</i></a>
+            <button type="button">Tag us in your photo!</button>
+          </div>
         </div>
       </section>
       <!-- contact end -->
