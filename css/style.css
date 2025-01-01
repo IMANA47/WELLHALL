@@ -65,7 +65,21 @@ h3 {
   background-color: antiquewhite;
   min-height: 100vh;
   max-height: 100vh;
-  color: rgb(248, 114, 10);
+  color: rgb(71, 50, 36);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-page-left {
+  width: 500px;
+  background-color: aqua;
+}
+.about-page-left h6 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.about-page-left p {
+  margin-top: 40px;
 }
 .accommodations {
   background-color: rgb(243, 243, 243);
@@ -85,7 +99,7 @@ h3 {
   gap: 12px;
   margin-top: 3rem;
 }
- .box-1 img {
+.box-1 img {
   width: 310px;
   height: 200px;
   margin: 2px;
@@ -117,7 +131,7 @@ h3 {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(243, 243, 243);;
+  background-color: rgb(243, 243, 243);
 }
 .suit-1 h2 {
   color: rgb(71, 50, 36);
@@ -151,41 +165,92 @@ h3 {
 .suit-2 {
   width: 100%;
   height: 100vh;
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+}
+
+.suit-box-3-paragraphe1 {
+  margin-top: 18px;
+  padding: 12px;
+  font-size: 11px;
+  width: 280px;
+  border: 1px solid black;
+}
+.suit-box-3-paragraphe2 {
+  margin-top: 18px;
+  padding: 12px;
+  font-size: 11px;
+  width: 470px;
+  border: 1px solid black;
+}
+/* Promos-and-offers */
+#Promos_and_Offers {
+  width: 100%;
+  height: 100vh;
+}
+.box-Promos_and_Offers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+.Promos-and-offers-box-1 {
+  margin-top: 20px;
+}
+.text-offers {
+  color: rgb(71, 50, 36);
+  border: 1px solid rgb(71, 50, 36);
+  font-size: 12px;
+  margin-top: 14px;
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+}
+.text-offers h3 {
+  font-size: 16px;
+}
+.text-offers p {
+  margin-top: 20px;
+  text-align: start;
+  font-size: 13px;
 }
 
 /*Press section*/
-.In_the_Press{
+.In_the_Press {
   color: white;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)), url(../assets/img/port.jpeg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.1)),
+    url(../assets/img/port.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
 }
-.In_the_Press h2{
+.In_the_Press h2 {
   font-size: 34px;
   text-align: center;
   padding-top: 140px;
 }
-.box-in-the-press{
+.box-in-the-press {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;  
+  flex-direction: row;
   gap: 30px;
 }
 
-.box-citation{
+.box-citation {
   width: 280px;
   margin-left: 50px;
   margin-top: 140px;
 }
-.box-citation b{
+.box-citation b {
   line-height: 5;
 }
-
-
 
 /* Contact section */
 #Contact {
@@ -218,24 +283,24 @@ h3 {
   padding-top: 2px;
   padding-left: 25px;
 }
-.contact-box a{
+.contact-box a {
   width: 100px;
   color: white;
   font-size: 13px;
 }
-.contact-box a address{
+.contact-box a address {
   width: 100px;
   line-height: 20px;
   color: white;
   font-size: 13px;
 }
-.contact-box p{
+.contact-box p {
   font-size: 15px;
-    line-height: 30px;
+  line-height: 30px;
   width: 130px;
   color: white;
 }
-.btn-contact-box{
+.btn-contact-box {
   background-color: transparent;
   color: white;
   font-size: 12px;
