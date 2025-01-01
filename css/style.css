@@ -24,7 +24,7 @@ nav ul li {
 }
 nav ul li a {
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
 }
 #welcome-page {
@@ -40,22 +40,24 @@ nav ul li a {
 }
 h5 {
   margin-bottom: 70px;
-  font-size: 30px;
+  font-size: 20px;
 }
 #the-wellhall {
   font-weight: lighter;
-  font-size: 8rem;
+  font-size: 5rem;
 }
 h3 {
   margin-top: 3px;
-  font-size: 40px;
+  font-size: 30px;
 }
-button {
+.btn-the-wellhall {
   margin-top: 75px;
-  padding: 1rem;
-  width: 200px;
+  padding: 10px;
+  width: 150px;
   color: rgb(250, 110, 2);
   font-weight: bolder;
+  border-radius: none;
+  font-size: 10px;
 }
 
 /* about */
@@ -67,12 +69,11 @@ button {
 }
 .accommodations {
   background-color: rgb(243, 243, 243);
-  border: 2px solid rgb(248, 114, 10);
   margin: 2px;
 }
 #text-title-accommodations {
   color: rgb(71, 50, 36);
-  font-size: 3.9rem;
+  font-size: 40px;
   margin-top: 70px;
   display: flex;
   justify-content: center;
@@ -81,22 +82,23 @@ button {
   color: rgb(71, 50, 36);
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 12px;
   margin-top: 3rem;
 }
+ .box-1 img {
+  width: 310px;
+  height: 200px;
+  margin: 2px;
+}
 .detail-box {
-  width: 400px;
-  height: 210px;
+  width: 310px;
+  height: 200px;
   margin-top: 15px;
   padding: 1.5rem;
   border: 2px solid rgb(248, 114, 10);
   line-height: 0%;
 }
-.box-img > img {
-  width: 400px;
-  height: 250px;
-  margin: 2px;
-}
+
 #box-text-1 {
   font-size: 15px;
   font-weight: lighter;
@@ -114,35 +116,36 @@ button {
   padding: 8px;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: center;
-  background-color: aquamarine;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 243);;
 }
 .suit-1 h2 {
   color: rgb(71, 50, 36);
-  font-size: 50px;
-  width: 250px;
+  font-size: 30px;
+  width: 200px;
 }
 .suit-box-1 p {
   color: rgb(71, 50, 36);
-  font-size: 20px;
-  width: 500px;
-  padding-top: 220px;
-  background-color: blueviolet;
+  font-size: 13px;
+  width: 300px;
+  padding-top: 170px;
 }
 .suit-box-1 {
   padding: 40px;
 }
 #img-suit-box-2 {
-  width: 550px;
+  width: 350px;
+  margin-top: 40px;
   margin-bottom: 10px;
+  margin-right: 70px;
 }
 #text-suit-box-2 {
-  width: 550px;
-  font-size: 15px;
+  width: 350px;
+  font-size: 9px;
   border: 1px solid black;
-  padding: 15px;
-  padding-left: 95px;
-  padding-right: 95px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 .suit-2 {
@@ -150,6 +153,40 @@ button {
   height: 100vh;
   background-color: blueviolet;
 }
+
+/*Press section*/
+.In_the_Press{
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)), url(../assets/img/port.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.In_the_Press h2{
+  font-size: 34px;
+  text-align: center;
+  padding-top: 140px;
+}
+.box-in-the-press{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  gap: 30px;
+}
+
+.box-citation{
+  width: 280px;
+  margin-left: 50px;
+  margin-top: 140px;
+}
+.box-citation b{
+  line-height: 5;
+}
+
+
+
 /* Contact section */
 #Contact {
   width: 100%;
@@ -158,42 +195,54 @@ button {
 }
 #Contact h2 {
   color: white;
-  font-size: 50px;
-  padding-top: 170px;
-  padding-left: 170px;
+  font-size: 30px;
+  padding-top: 130px;
+  padding-left: 90px;
 }
 .container-contact {
-  margin-top: 150px;
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 50px;
+  gap: 40px;
 }
 .contact-box {
   color: white;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 40px;
   border: #fffcf7 1px solid;
-  width: 450px;
-  height: 300px;
-  padding-top: 25px;
+  width: 300px;
+  height: 200px;
+  padding-top: 2px;
   padding-left: 25px;
 }
 .contact-box a{
+  width: 100px;
   color: white;
-  font-size: 20px;
+  font-size: 13px;
+}
+.contact-box a address{
+  width: 100px;
+  line-height: 20px;
+  color: white;
+  font-size: 13px;
 }
 .contact-box p{
-  font-size: 20px;
+  font-size: 15px;
+    line-height: 30px;
+  width: 130px;
+  color: white;
 }
-button{
+.btn-contact-box{
   background-color: transparent;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
+  margin-top: 50px;
+  padding: 12px;
   font-weight: lighter;
-  width: 350px;
+  width: 250px;
   border-radius: 50px;
   border: 1px solid white;
 }
