@@ -5,13 +5,16 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(243, 243, 243);
+}
 /*navbar*/
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2%;
-  background-color: chocolate;
+  background-color: #492702;
 }
 .logo {
   color: #fffcf7;
@@ -56,13 +59,16 @@ h3 {
   width: 150px;
   color: rgb(250, 110, 2);
   font-weight: bolder;
-  border-radius: none;
   font-size: 10px;
+}
+.btn-the-wellhall:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: rgb(71, 50, 36);
 }
 
 /* about */
 #About {
-  background-color: antiquewhite;
   min-height: 100vh;
   max-height: 100vh;
   color: rgb(71, 50, 36);
@@ -72,7 +78,6 @@ h3 {
 }
 .about-page-left {
   width: 500px;
-  background-color: aqua;
 }
 .about-page-left h6 {
   font-size: 50px;
@@ -82,13 +87,12 @@ h3 {
   margin-top: 40px;
 }
 .accommodations {
-  background-color: rgb(243, 243, 243);
   margin: 2px;
+  padding-top: 70px;
 }
 #text-title-accommodations {
   color: rgb(71, 50, 36);
   font-size: 40px;
-  margin-top: 70px;
   display: flex;
   justify-content: center;
 }
@@ -131,7 +135,6 @@ h3 {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(243, 243, 243);
 }
 .suit-1 h2 {
   color: rgb(71, 50, 36);
@@ -170,7 +173,6 @@ h3 {
   align-items: center;
   gap: 30px;
   justify-content: center;
-  background-color: rgb(243, 243, 243);
 }
 
 .suit-box-3-paragraphe1 {
